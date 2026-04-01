@@ -118,9 +118,15 @@ Gap padrão: 16px (gap-4 no Tailwind)
 
 **Ao tirar screenshots:**
 - Usar convenção: `{feature}-{status}-{YYYY-MM-DD}-{HHmm}-v{version}.png`
-- Salvar em `screenshots/{feature}/`
+- Salvar em `screenshots/{feature}/` (NUNCA na raiz!)
 - Manter apenas as úteis (remover duplicatas)
 - Ver `screenshots/SCREENSHOT_GUIDE.md` para detalhes
+
+⚠️ **CRÍTICO**: 
+- **NUNCA** deixar arquivos `.png` ou `.jpg` na raiz do projeto
+- Playwright gera `.yml` temporários - remover com `rm -rf .playwright-mcp/`
+- Adicionar no `.gitignore`: `/screenshots`, `/current-*.png`, `/dashboard-*.png`, etc
+- Verificar `git status` antes de commit - nenhuma imagem pode ir para o repositório
 
 ## Lembrete
 

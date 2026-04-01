@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 .pen
+/screenshots
+/current-*.png
+/dashboard-*.png
 
 # Editor directories and files
 .vscode/*
