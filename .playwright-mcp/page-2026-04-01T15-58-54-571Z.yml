@@ -1,0 +1,175 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: STYLE Manager
+      - generic [ref=e7]: v1.0.0 - API
+    - generic [ref=e8]:
+      - generic [ref=e9]: Principal
+      - generic [ref=e10]:
+        - generic [ref=e12] [cursor=pointer]: Dashboard
+        - generic [ref=e14] [cursor=pointer]: Agendamentos
+        - generic [ref=e16] [cursor=pointer]: Clientes
+        - generic [ref=e18] [cursor=pointer]: Cabeleireiros
+      - generic [ref=e19]: Sistema
+      - generic [ref=e20]:
+        - generic [ref=e22] [cursor=pointer]: Serviços
+        - generic [ref=e24] [cursor=pointer]: Calendário
+        - generic [ref=e26] [cursor=pointer]: Relatórios
+        - generic [ref=e28] [cursor=pointer]: Configurações
+    - generic [ref=e31]:
+      - generic [ref=e32]: Admin
+      - generic [ref=e33]: ROOT - ONLINE
+  - main [ref=e34]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "DASHBOARD" [level=1] [ref=e37]
+        - generic [ref=e38]: QUARTA-FEIRA, 1 DE ABRIL DE 2026
+      - generic [ref=e39]:
+        - generic [ref=e41]: AO VIVO
+        - button "Atualizar" [ref=e42] [cursor=pointer]
+        - button "+ Novo Agendamento" [ref=e43] [cursor=pointer]
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: HOJE
+            - text: "12"
+          - generic [ref=e51]: agendamentos +3
+        - generic [ref=e52]:
+          - generic [ref=e54]:
+            - generic [ref=e55]: ESTA SEMANA
+            - text: "58"
+          - generic [ref=e56]: agendamentos +8%
+        - generic [ref=e57]:
+          - generic [ref=e59]:
+            - generic [ref=e60]: TX. CONFIRMAÇÃO
+            - text: 84%
+          - generic [ref=e61]: clicaram no email -2%
+        - generic [ref=e62]:
+          - generic [ref=e64]:
+            - generic [ref=e65]: PENDENTES
+            - text: "7"
+          - generic [ref=e66]: aguardando confirmação
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: Agendamentos de Hoje
+            - generic [ref=e71] [cursor=pointer]: ver todos ->
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - generic [ref=e75]: Horário
+              - generic [ref=e76]: Cliente
+              - generic [ref=e77]: Cabeleireiro
+              - generic [ref=e78]: Status
+            - generic [ref=e79]:
+              - generic [ref=e80]: 09:00
+              - generic [ref=e81]: Rafael Mendes
+              - generic [ref=e82]: Carlos S.
+              - generic [ref=e83]: Confirmado
+            - generic [ref=e84]:
+              - generic [ref=e85]: 10:00
+              - generic [ref=e86]: João Oliveira
+              - generic [ref=e87]: Andre L.
+              - generic [ref=e88]: Confirmado
+            - generic [ref=e89]:
+              - generic [ref=e90]: 11:00
+              - generic [ref=e91]: Bruno Costa
+              - generic [ref=e92]: Carlos S.
+              - generic [ref=e93]: Pendente
+            - generic [ref=e94]:
+              - generic [ref=e95]: 13:00
+              - generic [ref=e96]: Felipe Souza
+              - generic [ref=e97]: Marcos P.
+              - generic [ref=e98]: Confirmado
+            - generic [ref=e99]:
+              - generic [ref=e100]: 14:00
+              - generic [ref=e101]: Lucas Ferreira
+              - generic [ref=e102]: Andre L.
+              - generic [ref=e103]: Cancelado
+            - generic [ref=e104]:
+              - generic [ref=e105]: 15:00
+              - generic [ref=e106]: Diego Alves
+              - generic [ref=e107]: Carlos S.
+              - generic [ref=e108]: Pendente
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111]: Calendário
+            - generic [ref=e112]: Fev 2026
+          - generic [ref=e113]:
+            - generic [ref=e114]: Fevereiro 2026
+            - generic [ref=e115]: D S T Q Q S S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+          - generic [ref=e117]: Alertas
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - text: "!7 agendamentos aguardando confirmação"
+              - generic [ref=e120]: há 15 min
+            - generic [ref=e121]:
+              - text: +Calendário gerado para próximos 7 dias
+              - generic [ref=e122]: hoje, 00:00
+            - generic [ref=e123]:
+              - text: "-14:00 - Horário liberado (cancelamento)"
+              - generic [ref=e124]: há 42 min
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]: Agendamentos / Semana
+            - generic [ref=e129] [cursor=pointer]: export
+          - generic [ref=e140]:
+            - generic [ref=e141]: DOM
+            - generic [ref=e142]: SEG
+            - generic [ref=e143]: TER
+            - generic [ref=e144]: QUA
+            - generic [ref=e145]: QUI
+            - generic [ref=e146]: SEX
+            - generic [ref=e147]: SAB
+        - generic [ref=e148]:
+          - generic [ref=e150]: Cabeleireiros
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e155]: Carlos Santos
+                - generic [ref=e156]: 5 hoje
+              - generic [ref=e157]: Corte Barba Pigmentação
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e161]: Andre Lima
+                - generic [ref=e162]: 4 hoje
+              - generic [ref=e163]: Corte Degradê
+            - generic [ref=e165]:
+              - generic [ref=e166]:
+                - generic [ref=e167]: Marcos Pinto
+                - generic [ref=e168]: 3 hoje
+              - generic [ref=e169]: Corte Barba Sobrancelha
+        - generic [ref=e170]:
+          - generic [ref=e172]: Serviços Populares
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - generic [ref=e179]: "58"
+                - generic [ref=e180]: Total
+              - generic [ref=e181]:
+                - generic [ref=e182]: Legenda
+                - generic [ref=e183]:
+                  - generic [ref=e185]: Corte
+                  - generic [ref=e186]: 48%
+                - generic [ref=e187]:
+                  - generic [ref=e189]: Barba
+                  - generic [ref=e190]: 32%
+                - generic [ref=e191]:
+                  - generic [ref=e193]: Combo
+                  - generic [ref=e194]: 20%
+            - generic [ref=e195]:
+              - generic [ref=e196]: Métricas Rápidas
+              - generic [ref=e197]:
+                - generic [ref=e198]:
+                  - generic [ref=e199]: Antecedência média
+                  - generic [ref=e200]: 18.4h
+                - generic [ref=e201]:
+                  - generic [ref=e202]: Taxa de no-show
+                  - generic [ref=e203]: 6.2%
+                - generic [ref=e204]:
+                  - generic [ref=e205]: Novos clientes (semana)
+                  - generic [ref=e206]: "+11"
+                - generic [ref=e207]:
+                  - generic [ref=e208]: Horários restantes hoje
+                  - generic [ref=e209]: "14"
