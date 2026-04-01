@@ -1,12 +1,9 @@
 import React from 'react';
 import { NavBar } from '../components/NavBar';
+import { getActiveNavLinks } from '../constants/navLinks';
 
 export const Home: React.FC = () => {
-  const navLinks = [
-    { label: 'Login', href: '/login', active: false },
-    { label: 'Cadastro', href: '/signup', active: false },
-    { label: 'Area do Cliente', href: '/agendamento', active: false },
-  ];
+  const navLinks = getActiveNavLinks('/');
 
   return (
     <div

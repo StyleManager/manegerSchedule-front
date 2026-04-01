@@ -1,12 +1,10 @@
 import React from 'react';
 import { NavBar } from '../components/NavBar';
 import { AuthCard, FormInput, AuthButton } from '../components/Auth';
+import { getActiveNavLinks } from '../constants/navLinks';
 
 export const Login: React.FC = () => {
-  const navLinks = [
-    { label: 'Login', href: '/login', active: true },
-    { label: 'Cadastro', href: '/signup', active: false },
-  ];
+  const navLinks = getActiveNavLinks('/login');
 
   const loginData = {
     email: 'seuemail@email.com',
