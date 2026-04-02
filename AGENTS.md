@@ -26,18 +26,67 @@ Cada pasta com componentes pode conter seu próprio `AGENTS.md` com:
 
 ## Padrões de Implementação
 
+### ❌ PROIBIDO - Padrões Antigos
+- `React.FC` / `React.FunctionComponent` (deprecated)
+- Inline styles para layout, spacing, cores, borders, sizing
+- Componentes sem interface quando recebem props
+- Duplicação de código entre componentes
+
+### ✅ OBRIGATÓRIO - Padrões Novos
+- **Function components**: `export function Component() { }`
+- **Interfaces apenas quando necessário**: Se componente recebe props OU tem side-effects (API calls, useState, useEffect)
+- **TailwindCSS para layout**: Use classes `flex`, `p-4`, `gap-2`, `bg-[#161616]`, `border`, `w-full`, etc
+- **Inline styles APENAS para**: `fontFamily` e gradients complexos (`background: conic-gradient(...)`)
+
 ### Componentes React
-- **Functional components** com TypeScript
-- **Props interface**: Sempre definir interface para tipagem
-- **Sem useState/useContext**: Componentes são presentacionais
-- **Hardcoded data**: Usar dados estáticos até integração com API
+- **Pattern**: `export function Component() { return (...) }`
+- **Exemplo com props**:
+  ```typescript
+  interface AuthCardProps {
+    title: string;
+    subtitle: string;
+    children: ReactNode;
+  }
+  
+  export function AuthCard({ title, subtitle, children }: AuthCardProps) {
+    return <div>{children}</div>
+  }
+  ```
+- **Exemplo sem props**: Não necessário interface
+  ```typescript
+  export function MetricsRow() {
+    return <div className="flex gap-4">...</div>
+  }
+  ```
 
 ### Estilo & Design
-- **TailwindCSS 4**: Utilitários para layout, spacing, borders
-- **Inline styles**: Usar para fonts (`fontFamily`), gradients (`background: conic-gradient`), cores customizadas
+- **TailwindCSS 4**: Utilitários para layout, spacing, borders, sizing
+- **Inline styles**: APENAS para `fontFamily`, `background: conic-gradient`, cores dinâmicas
 - **Cores da spec**: Sempre usar hex (#0d0d0d, #161616, #c8a96e, etc)
 - **Fonts**: Bebas Neue (títulos), DM Mono (labels), DM Sans (corpo)
 - **Sem corner radius**: Todos os cards têm `cornerRadius: 0`
+
+**EXEMPLO CORRETO:**
+```typescript
+<div className="w-full h-12 bg-[#c8a96e] text-[#0d0d0d] px-4 py-3 cursor-pointer">
+  <span style={{ fontFamily: 'DM Sans', fontSize: '14px' }}>Botão</span>
+</div>
+```
+
+**EXEMPLO INCORRETO:**
+```typescript
+<div style={{
+  width: '100%',
+  height: '48px',
+  backgroundColor: '#c8a96e',
+  color: '#0d0d0d',
+  padding: '12px 16px',
+  cursor: 'pointer',
+  fontFamily: 'DM Sans', // ❌ Misturando Tailwind com inline
+}}>
+  Botão
+</div>
+```
 
 ### Componentes Reutilizáveis
 Criar em `src/components/` quando usado em múltiplos lugares:
@@ -45,6 +94,9 @@ Criar em `src/components/` quando usado em múltiplos lugares:
 - `Button.tsx` - Buttons primary/secondary
 - `Panel.tsx` - Cards com header e border
 - `MetricCard.tsx` - Cards com indicator bar + valores
+- `AuthCard.tsx` - Form cards
+- `FormInput.tsx` - Input fields
+- `AuthButton.tsx` - Auth buttons
 
 ### Organização de Arquivos
 ```

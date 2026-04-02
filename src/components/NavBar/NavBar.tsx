@@ -1,5 +1,3 @@
-import React from 'react';
-
 export interface NavLink {
   label: string;
   href: string;
@@ -7,37 +5,26 @@ export interface NavLink {
 }
 
 export interface NavBarProps {
-  hint?: string;
   navLinks?: NavLink[];
 }
 
-export const NavBar: React.FC<NavBarProps> = ({
-  hint = '',
+export function NavBar({
   navLinks = [
+    { label: 'Home', href: '/', active: true },
+    { label: 'Login', href: '/login', active: true },
     { label: 'Criar Agendamento', href: '/agendamento', active: true },
     { label: 'Meus Agendamentos', href: '/agendamentos', active: false },
   ],
-}) => {
+}: NavBarProps) {
   return (
-    <nav
-      style={{
-        backgroundColor: '#0d0d0d',
-        borderBottom: '1px solid #2a2a2a',
-        padding: '20px 28px',
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        height: '72px',
-      }}
-    >
+    <nav className="flex justify-between items-center h-[72px] px-7 border-b border-[#2a2a2a] bg-[#0d0d0d]">
       {/* Logo */}
       <div
+        className="text-[30px] text-[#c8a96e]"
         style={{
           fontFamily: 'Bebas Neue',
-          fontSize: '30px',
-          fontWeight: 'normal',
           letterSpacing: '2px',
-          color: '#c8a96e',
+          fontWeight: 'normal',
         }}
       >
         STYLE MGR
@@ -45,35 +32,27 @@ export const NavBar: React.FC<NavBarProps> = ({
 
       {/* Center - Hint */}
       <div
+        className="text-[11px] text-[#7a7570]"
         style={{
           fontFamily: 'DM Mono',
-          fontSize: '11px',
-          fontWeight: 'normal',
           letterSpacing: '1px',
-          color: '#7a7570',
+          fontWeight: 'normal',
         }}
       >
-        {hint}
       </div>
 
       {/* Right - Navigation Links */}
-      <div
-        style={{
-          display: 'flex',
-          gap: '16px',
-          alignItems: 'center',
-        }}
-      >
-        {navLinks.map((link, index) => (
+      <div className="flex gap-4 items-center">
+        {navLinks.map((link) => (
           <a
-            key={index}
+            key={link.href}
             href={link.href}
+            className={link.active ? 'text-[#c8a96e]' : 'text-[#7a7570]'}
             style={{
               fontFamily: 'DM Mono',
               fontSize: '11px',
-              fontWeight: 'normal',
               letterSpacing: '1px',
-              color: link.active ? '#c8a96e' : '#7a7570',
+              fontWeight: 'normal',
               textDecoration: 'none',
             }}
           >
@@ -83,4 +62,4 @@ export const NavBar: React.FC<NavBarProps> = ({
       </div>
     </nav>
   );
-};
+}

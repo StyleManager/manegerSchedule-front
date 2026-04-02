@@ -1,4 +1,3 @@
-import React from 'react';
 import type { ReactNode } from 'react';
 
 export interface AuthCardProps {
@@ -11,33 +10,21 @@ export interface AuthCardProps {
   };
 }
 
-export const AuthCard: React.FC<AuthCardProps> = ({
+export function AuthCard({
   title,
   subtitle,
   children,
   bottomLink,
-}) => {
+}: AuthCardProps) {
   return (
-    <div
-      style={{
-        width: '440px',
-        backgroundColor: '#161616',
-        border: '1px solid #2a2a2a',
-        borderRadius: '4px',
-        padding: '24px',
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '16px',
-      }}
-    >
+    <div className="w-[440px] bg-[#161616] border border-[#2a2a2a] rounded p-6 flex flex-col gap-4">
       {/* Title */}
       <div
+        className="text-[42px] text-[#f0ede8]"
         style={{
           fontFamily: 'Bebas Neue',
-          fontSize: '42px',
           fontWeight: 'normal',
           letterSpacing: '1px',
-          color: '#f0ede8',
         }}
       >
         {title}
@@ -45,12 +32,10 @@ export const AuthCard: React.FC<AuthCardProps> = ({
 
       {/* Subtitle */}
       <div
+        className="text-[14px] text-[#7a7570] leading-[1.5]"
         style={{
           fontFamily: 'DM Sans',
-          fontSize: '14px',
           fontWeight: 'normal',
-          lineHeight: '1.5',
-          color: '#7a7570',
         }}
       >
         {subtitle}
@@ -63,11 +48,10 @@ export const AuthCard: React.FC<AuthCardProps> = ({
       {bottomLink && (
         <a
           href={bottomLink.href}
+          className="text-[13px] text-[#c8a96e]"
           style={{
             fontFamily: 'DM Sans',
-            fontSize: '13px',
             fontWeight: 'normal',
-            color: '#c8a96e',
             textDecoration: 'none',
           }}
         >
@@ -76,4 +60,4 @@ export const AuthCard: React.FC<AuthCardProps> = ({
       )}
     </div>
   );
-};
+}

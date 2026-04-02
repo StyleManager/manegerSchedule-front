@@ -1,83 +1,50 @@
-import React from 'react';
-import { NavBar } from '../components/NavBar';
 import { AuthCard, FormInput, AuthButton } from '../components/Auth';
-import { getActiveNavLinks } from '../constants/navLinks';
 
-export const Login: React.FC = () => {
-  const navLinks = getActiveNavLinks('/login');
-
+export function Login() {
   const loginData = {
     email: 'seuemail@email.com',
     password: '••••••••',
   };
 
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        minHeight: '100vh',
-        backgroundColor: '#0d0d0d',
-      }}
-    >
-      {/* NavBar */}
-      <NavBar hint="" navLinks={navLinks} />
-
-      {/* Main Content */}
-      <div
-        style={{
-          flex: 1,
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          padding: '24px',
+    <div className="flex-1 flex justify-center items-center px-6 py-6 bg-[#0d0d0d]">
+      <AuthCard
+        title="Entrar"
+        subtitle="Acesse para agendar e acompanhar seus horarios."
+        bottomLink={{
+          text: 'Nao tem conta? Crie seu cadastro',
+          href: '/signup',
         }}
       >
-        <AuthCard
-          title="Entrar"
-          subtitle="Acesse para agendar e acompanhar seus horarios."
-          bottomLink={{
-            text: 'Nao tem conta? Crie seu cadastro',
-            href: '/signup',
-          }}
-        >
+        <div className="flex flex-col gap-4">
+          {/* Email Input */}
+          <FormInput
+            placeholder="seuemail@email.com"
+            type="email"
+            value={loginData.email}
+          />
+
+          {/* Password Input */}
+          <FormInput
+            placeholder="••••••••"
+            type="password"
+            value={loginData.password}
+          />
+
+          {/* Error Message */}
           <div
+            className="text-xs text-[#e05c5c]"
             style={{
-              display: 'flex',
-              flexDirection: 'column',
-              gap: '16px',
+              fontFamily: 'DM Sans',
             }}
           >
-            {/* Email Input */}
-            <FormInput
-              placeholder="seuemail@email.com"
-              type="email"
-              value={loginData.email}
-            />
-
-            {/* Password Input */}
-            <FormInput
-              placeholder="••••••••"
-              type="password"
-              value={loginData.password}
-            />
-
-            {/* Error Message */}
-            <div
-              style={{
-                fontFamily: 'DM Sans',
-                fontSize: '12px',
-                color: '#e05c5c',
-              }}
-            >
-              Email ou senha invalidos
-            </div>
-
-            {/* Submit Button */}
-            <AuthButton label="Entrar" />
+            Email ou senha invalidos
           </div>
-        </AuthCard>
-      </div>
+
+          {/* Submit Button */}
+          <AuthButton label="Entrar" />
+        </div>
+      </AuthCard>
     </div>
   );
-};
+}
