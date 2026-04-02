@@ -15,6 +15,7 @@ dist-ssr
 /screenshots
 /current-*.png
 /dashboard-*.png
+/.playwright-mcp
 
 # Editor directories and files
 .vscode/*
