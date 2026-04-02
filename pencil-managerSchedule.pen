@@ -18,7 +18,6 @@
       "id": "S8yXm",
       "x": 0,
       "y": 0,
-      "name": "Sidebar",
       "width": 220,
       "height": 1024,
       "fill": "#161616",
@@ -246,7 +245,6 @@
       "id": "H3u3Q",
       "x": 220,
       "y": 0,
-      "name": "Main",
       "width": 1220,
       "height": 1024,
       "fill": "#0d0d0d",
@@ -1151,7 +1149,7 @@
     {
       "type": "frame",
       "id": "C8oTY",
-      "x": 1600,
+      "x": 2322,
       "y": 0,
       "name": "Cliente - Login",
       "clip": true,
@@ -1401,7 +1399,7 @@
     {
       "type": "frame",
       "id": "DTTXa",
-      "x": 2920,
+      "x": 3642,
       "y": 0,
       "name": "Cliente - Cadastro",
       "clip": true,
@@ -1582,7 +1580,7 @@
     {
       "type": "frame",
       "id": "60jmt",
-      "x": 1600,
+      "x": 2322,
       "y": 940,
       "name": "Cliente - Agendamento Passo 1",
       "clip": true,
@@ -1927,7 +1925,7 @@
     {
       "type": "frame",
       "id": "1tc1x",
-      "x": 2920,
+      "x": 3642,
       "y": 940,
       "name": "Cliente - Agendamento Passo 2",
       "clip": true,
@@ -2275,7 +2273,7 @@
     {
       "type": "frame",
       "id": "b6Lqv",
-      "x": 1600,
+      "x": 2322,
       "y": 1880,
       "name": "Cliente - Agendamento Passo 3",
       "clip": true,
@@ -2559,7 +2557,7 @@
     {
       "type": "frame",
       "id": "YQfOc",
-      "x": 2920,
+      "x": 3642,
       "y": 1880,
       "name": "Cliente - Agendamento Passo 4",
       "clip": true,
@@ -2927,7 +2925,7 @@
     {
       "type": "frame",
       "id": "vKwfv",
-      "x": 1600,
+      "x": 2322,
       "y": 2820,
       "name": "Cliente - Agendamento Passo 5",
       "clip": true,
@@ -3237,7 +3235,7 @@
     {
       "type": "frame",
       "id": "07JDS",
-      "x": 2920,
+      "x": 3642,
       "y": 2820,
       "name": "Cliente - Meus Agendamentos",
       "clip": true,
@@ -3515,7 +3513,7 @@
     {
       "type": "frame",
       "id": "YugNJ",
-      "x": 4240,
+      "x": 4962,
       "y": 0,
       "name": "Cliente - Detalhes Agendamento",
       "clip": true,
@@ -3803,7 +3801,7 @@
     {
       "type": "frame",
       "id": "KWg4d",
-      "x": 4240,
+      "x": 4962,
       "y": 940,
       "name": "Cliente - Confirmacao Email",
       "clip": true,
@@ -3971,6 +3969,1319 @@
                       "content": "Ir para Meus Agendamentos",
                       "fontFamily": "DM Sans",
                       "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "oPgXc",
+      "x": 0,
+      "y": 1120,
+      "name": "Home - Cliente",
+      "width": 1440,
+      "height": 900,
+      "fill": "#0d0d0d",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "lDoYu",
+          "name": "Topbar",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#0d0d0d",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#2a2a2a"
+          },
+          "padding": [
+            20,
+            28
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "qT2Sm",
+              "name": "Logo",
+              "fill": "#c8a96e",
+              "content": "STYLE MGR",
+              "fontFamily": "Bebas Neue",
+              "fontSize": 30,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "vamel",
+              "name": "Hint",
+              "fill": "#7a7570",
+              "fontFamily": "DM Mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "Izyvz",
+              "name": "Links",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "n3swT",
+                  "name": "L0",
+                  "fill": "#c8a96e",
+                  "content": "Home",
+                  "fontFamily": "DM Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "85BIX",
+                  "name": "L1",
+                  "fill": "#c8a96e",
+                  "content": "Login",
+                  "fontFamily": "DM Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "xVegP",
+                  "name": "L2",
+                  "fill": "#c8a96e",
+                  "content": "Criar Agendamento",
+                  "fontFamily": "DM Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "qlJdk",
+                  "name": "L3",
+                  "fill": "#7a7570",
+                  "content": "Meus Agendamentos",
+                  "fontFamily": "DM Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bBcT8",
+          "name": "Body",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            36
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Up7SZ",
+              "name": "Icon Wrap",
+              "rotation": 125.00000000000001,
+              "width": 120,
+              "height": 120,
+              "fill": "#c8a96e14",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "3uNLb",
+                  "name": "Scissors",
+                  "width": 100,
+                  "height": 100,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/tesouraIcone.png",
+                    "mode": "fill"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "kRS4O",
+              "name": "Title",
+              "fill": "#f0ede8",
+              "content": "STYLE MANAGER",
+              "fontFamily": "Bebas Neue",
+              "fontSize": 52,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            },
+            {
+              "type": "text",
+              "id": "bPAVZ",
+              "name": "Subtitle",
+              "fill": "#c8a96e",
+              "content": "Sistema de gerenciamento de agendamentos para barbearias",
+              "fontFamily": "DM Mono",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "DLaca",
+              "name": "Benefits",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                0,
+                48
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vSZ2o",
+                  "name": "B1",
+                  "fill": "#8a8580",
+                  "content": "✓ Agende seus cortes de forma simples e rápida",
+                  "lineHeight": 1.4,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wrinW",
+                  "name": "B2",
+                  "fill": "#8a8580",
+                  "content": "✓ Consulte horários disponíveis em tempo real",
+                  "lineHeight": 1.4,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Ku8Vb",
+                  "name": "B3",
+                  "fill": "#8a8580",
+                  "content": "✓ Cancele ou remarcue seus agendamentos facilmente",
+                  "lineHeight": 1.4,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2ynJH",
+              "name": "Buttons",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wVMdA",
+                  "name": "Criar Conta",
+                  "width": 150,
+                  "height": 46,
+                  "fill": "#c8a96e",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#a0854a"
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nrXWE",
+                      "name": "Txt",
+                      "fill": "#0d0d0d",
+                      "content": "Criar Conta",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OrPJD",
+                  "name": "Login",
+                  "width": 150,
+                  "height": 46,
+                  "fill": "#00000000",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#c8a96e"
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pkbnB",
+                      "name": "Txt",
+                      "fill": "#c8a96e",
+                      "content": "Login",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "k1nHO",
+      "x": 0,
+      "y": 2060,
+      "name": "Área do Cliente",
+      "width": 1440,
+      "height": 1024,
+      "fill": "#0d0d0d",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Rv9DB",
+          "name": "Topbar",
+          "width": "fill_container",
+          "height": 86,
+          "fill": "#0d0d0d",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#2a2a2a"
+          },
+          "padding": [
+            20,
+            36
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "i3KBr",
+              "name": "Logo",
+              "fill": "#c8a96e",
+              "content": "STYLE MGR",
+              "fontFamily": "Bebas Neue",
+              "fontSize": 30,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "3MIdg",
+              "name": "Topbar Right",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hhkOW",
+                  "name": "User",
+                  "fill": "#f0ede8",
+                  "content": "João Mendes",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "DLlV5",
+                  "name": "Agendar",
+                  "fill": "#c8a96e",
+                  "content": "Agendar novo",
+                  "fontFamily": "DM Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "z1ojE",
+                  "name": "Logout",
+                  "fill": "#7a7570",
+                  "content": "Logout",
+                  "fontFamily": "DM Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "omzkO",
+          "name": "Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            32,
+            36
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "LF9FZ",
+              "name": "Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ylvx0",
+                  "name": "Title",
+                  "fill": "#f0ede8",
+                  "content": "MEUS AGENDAMENTOS",
+                  "fontFamily": "Bebas Neue",
+                  "fontSize": 42,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "F6PGm",
+                  "name": "CTA",
+                  "width": 190,
+                  "height": 46,
+                  "fill": "#c8a96e",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#a0854a"
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lB5EO",
+                      "name": "CTA Text",
+                      "fill": "#0d0d0d",
+                      "content": "Agendar novo corte",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hRD4l",
+              "name": "Resumo",
+              "width": "fill_container",
+              "height": 128,
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VhrDS",
+                  "name": "KPI Próximo",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2a2a2a"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    20,
+                    22
+                  ],
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "1IHJY",
+                      "name": "Line",
+                      "fill": "#c8a96e",
+                      "width": "fill_container",
+                      "height": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "QnqRH",
+                      "name": "Text",
+                      "fill": "#f0ede8",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "PRÓXIMO AGENDAMENTO\n15 MAR\n14:30 - Corte + Barba",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Qd5yF",
+                  "name": "KPI Total",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2a2a2a"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    20,
+                    22
+                  ],
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "tGQKa",
+                      "name": "Line",
+                      "fill": "#5ce0a0",
+                      "width": "fill_container",
+                      "height": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "nyRjz",
+                      "name": "Text",
+                      "fill": "#f0ede8",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "TOTAL DE AGENDAMENTOS\n24\nno período",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GYRQP",
+                  "name": "KPI Último",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2a2a2a"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    20,
+                    22
+                  ],
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "UNZEn",
+                      "name": "Line",
+                      "fill": "#c8a96e",
+                      "width": "fill_container",
+                      "height": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "wm2H1",
+                      "name": "Text",
+                      "fill": "#f0ede8",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "ÚLTIMO AGENDAMENTO\n08 MAR\nconfirmado",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kmsEk",
+                  "name": "KPI Status",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2a2a2a"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    20,
+                    22
+                  ],
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "3eFva",
+                      "name": "Line",
+                      "fill": "#e0c55c",
+                      "width": "fill_container",
+                      "height": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "w0Xkm",
+                      "name": "Text",
+                      "fill": "#f0ede8",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "STATUS GERAL\n18 confirmados\n6 pendentes",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "e5VYY",
+              "name": "Próximo Agendamento",
+              "width": "fill_container",
+              "height": 200,
+              "fill": "#161616",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#2a2a2a"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aauP9",
+                  "name": "Head",
+                  "width": "fill_container",
+                  "height": 52,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#2a2a2a"
+                  },
+                  "padding": [
+                    16,
+                    20
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mHSNh",
+                      "name": "Title",
+                      "fill": "#7a7570",
+                      "content": "Próximo agendamento",
+                      "fontFamily": "DM Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "a6lM4",
+                      "name": "Action",
+                      "fill": "#c8a96e",
+                      "content": "ver detalhes ->",
+                      "fontFamily": "DM Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JfvUo",
+                  "name": "Body",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "padding": [
+                    16,
+                    20
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "79u0Y",
+                      "name": "Left",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZAb4z",
+                          "name": "Info",
+                          "fill": "#f0ede8",
+                          "textGrowth": "fixed-width",
+                          "width": 500,
+                          "content": "15 MAR • 14:30\nServiço: Corte + Barba\nProfissional: Carlos S.\nStatus: aguardando confirmação por e-mail",
+                          "lineHeight": 1.65,
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gpICA",
+                      "name": "Right",
+                      "width": 250,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "bumUH",
+                          "name": "Badge",
+                          "width": 120,
+                          "height": 28,
+                          "fill": "#e0c55c",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "s6Yh7",
+                              "name": "Badge Text",
+                              "fill": "#0d0d0d",
+                              "content": "PENDENTE",
+                              "fontFamily": "DM Mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AIEAU",
+                          "name": "Actions",
+                          "gap": 14,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "F8sb1",
+                              "name": "Cancelar",
+                              "fill": "#e05c5c",
+                              "content": "Cancelar",
+                              "fontFamily": "DM Mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "iwkPA",
+                              "name": "Reagendar",
+                              "fill": "#c8a96e",
+                              "content": "Reagendar",
+                              "fontFamily": "DM Mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DeDMv",
+              "name": "Filtros",
+              "width": "fill_container",
+              "height": 40,
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "601Ll",
+                  "name": "Label",
+                  "fill": "#7a7570",
+                  "content": "FILTROS:",
+                  "fontFamily": "DM Mono",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "3dDTf",
+                  "name": "Status",
+                  "width": 180,
+                  "height": 40,
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2a2a2a"
+                  },
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oO5oz",
+                      "name": "Text",
+                      "fill": "#f0ede8",
+                      "content": "Status: Todos",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uOBTQ",
+                  "name": "Data",
+                  "width": 180,
+                  "height": 40,
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2a2a2a"
+                  },
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EzsR4",
+                      "name": "Text",
+                      "fill": "#f0ede8",
+                      "content": "Data: Selecionar",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qGfkI",
+                  "name": "Profissional",
+                  "width": 230,
+                  "height": 40,
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2a2a2a"
+                  },
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MdvlO",
+                      "name": "Text",
+                      "fill": "#f0ede8",
+                      "content": "Profissional: Todos",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FBAWZ",
+              "name": "Lista",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#161616",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#2a2a2a"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "erDhP",
+                  "name": "List Head",
+                  "width": "fill_container",
+                  "height": 52,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#2a2a2a"
+                  },
+                  "padding": [
+                    16,
+                    20
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Xo5O2",
+                      "name": "Title",
+                      "fill": "#7a7570",
+                      "content": "Agendamentos",
+                      "fontFamily": "DM Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "u35vz",
+                      "name": "Action",
+                      "fill": "#c8a96e",
+                      "content": "ver detalhes ->",
+                      "fontFamily": "DM Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GfpTZ",
+                  "name": "List Body",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    12,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3Mm9a",
+                      "name": "Header",
+                      "fill": "#7a7570",
+                      "textGrowth": "fixed-width",
+                      "width": 1100,
+                      "content": "DATA        HORÁRIO      SERVIÇO            PROFISSIONAL      STATUS        AÇÕES",
+                      "fontFamily": "DM Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cBZ0f",
+                      "name": "Row 1",
+                      "width": "fill_container",
+                      "height": 56,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#2a2a2a"
+                      },
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "sIeVs",
+                          "name": "Info",
+                          "fill": "#f0ede8",
+                          "textGrowth": "fixed-width",
+                          "width": 720,
+                          "content": "15 MAR   •   14:30   •   Corte + Barba   •   Carlos S.",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CjEPm",
+                          "name": "Badge",
+                          "width": 112,
+                          "height": 26,
+                          "fill": "#5ce0a0",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pbJMe",
+                              "name": "Badge Text",
+                              "fill": "#0d0d0d",
+                              "content": "CONFIRMADO",
+                              "fontFamily": "DM Mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "ONdFz",
+                          "name": "Actions",
+                          "fill": "#c8a96e",
+                          "content": "Ver detalhes   Cancelar",
+                          "fontFamily": "DM Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ezpVI",
+                      "name": "Row 2",
+                      "width": "fill_container",
+                      "height": 56,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#2a2a2a"
+                      },
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rLVUr",
+                          "name": "Info",
+                          "fill": "#f0ede8",
+                          "textGrowth": "fixed-width",
+                          "width": 720,
+                          "content": "18 MAR   •   10:00   •   Barba   •   Andre L.",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GHeoi",
+                          "name": "Badge",
+                          "width": 112,
+                          "height": 26,
+                          "fill": "#e0c55c",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "M5S8P",
+                              "name": "Badge Text",
+                              "fill": "#0d0d0d",
+                              "content": "PENDENTE",
+                              "fontFamily": "DM Mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "NZEPU",
+                          "name": "Actions",
+                          "fill": "#c8a96e",
+                          "content": "Ver detalhes   Cancelar",
+                          "fontFamily": "DM Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "geDNp",
+                      "name": "Row 3",
+                      "width": "fill_container",
+                      "height": 56,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#2a2a2a"
+                      },
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UcZwB",
+                          "name": "Info",
+                          "fill": "#f0ede8",
+                          "textGrowth": "fixed-width",
+                          "width": 720,
+                          "content": "20 MAR   •   16:00   •   Corte + Barba   •   Carlos S.",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nWHnl",
+                          "name": "Badge",
+                          "width": 112,
+                          "height": 26,
+                          "fill": "#5ce0a0",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Uuxs2",
+                              "name": "Badge Text",
+                              "fill": "#0d0d0d",
+                              "content": "CONFIRMADO",
+                              "fontFamily": "DM Mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "tKj4o",
+                          "name": "Actions",
+                          "fill": "#c8a96e",
+                          "content": "Ver detalhes   Cancelar",
+                          "fontFamily": "DM Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "nbPae",
+      "x": 0,
+      "y": 3219,
+      "name": "Área do Cliente - Vazio",
+      "width": 1440,
+      "height": 620,
+      "fill": "#0d0d0d",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "23tLL",
+          "name": "Topbar",
+          "width": "fill_container",
+          "height": 86,
+          "fill": "#0d0d0d",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#2a2a2a"
+          },
+          "padding": [
+            20,
+            36
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "ZUYpO",
+              "name": "Logo",
+              "fill": "#c8a96e",
+              "content": "STYLE MGR",
+              "fontFamily": "Bebas Neue",
+              "fontSize": 30,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "DSv5W",
+              "name": "User",
+              "fill": "#f0ede8",
+              "content": "João Mendes",
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HfxUZ",
+          "name": "Body",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": 32,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Z1uUi",
+              "name": "Empty Card",
+              "width": 760,
+              "height": 260,
+              "fill": "#161616",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#2a2a2a"
+              },
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                28,
+                40
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "1IZxj",
+                  "name": "Title",
+                  "fill": "#f0ede8",
+                  "content": "Você ainda não possui agendamentos",
+                  "fontFamily": "Bebas Neue",
+                  "fontSize": 34,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "8iIpj",
+                  "name": "Description",
+                  "fill": "#7a7570",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Quando um horário for solicitado e confirmado por e-mail, ele aparecerá aqui na sua área do cliente.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "GHwOP",
+                  "name": "CTA",
+                  "width": 190,
+                  "height": 46,
+                  "fill": "#c8a96e",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#a0854a"
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Y4TY0",
+                      "name": "CTA Text",
+                      "fill": "#0d0d0d",
+                      "content": "Agendar novo corte",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
                       "fontWeight": "500"
                     }
                   ]

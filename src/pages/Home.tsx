@@ -66,7 +66,33 @@ export function Home() {
       </div>
 
       {/* Buttons */}
-      <div className="flex gap-6 justify-center items-center">
+      <div className="flex gap-6 justify-center items-center flex-wrap">
+        <a
+          href="/client/booking/1"
+          className="w-[200px] h-[46px] bg-[#c8a96e] border border-[#a0854a] rounded text-[#0d0d0d] cursor-pointer transition-colors hover:bg-[#d4b876] flex items-center justify-center"
+          style={{
+            fontFamily: 'DM Sans',
+            fontSize: '14px',
+            fontWeight: '500',
+            textDecoration: 'none',
+          }}
+        >
+          Criar Agendamento
+        </a>
+
+        <a
+          href="/client/appointments"
+          className="w-[200px] h-[46px] bg-transparent border-2 border-[#c8a96e] rounded text-[#c8a96e] cursor-pointer transition-colors hover:bg-[rgba(200,169,110,0.1)] flex items-center justify-center"
+          style={{
+            fontFamily: 'DM Sans',
+            fontSize: '14px',
+            fontWeight: '500',
+            textDecoration: 'none',
+          }}
+        >
+          Meus Agendamentos
+        </a>
+
         <button
           onClick={() => window.location.href = '/signup'}
           className="w-[150px] h-[46px] bg-[#c8a96e] border border-[#a0854a] rounded text-[#0d0d0d] cursor-pointer transition-colors hover:bg-[#d4b876]"
